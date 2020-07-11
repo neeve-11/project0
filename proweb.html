@@ -1,72 +1,134 @@
 <!DOCTYPE html>
 <html lang='en-US'>
-<head> 
-      <title> Beliving</title>
+<head>
+    <title> Beliving</title>
+    <link rel="icon" type="image/ico" href="logo.png">
 	  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+	  <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+    <link href="prow.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <style>
 	  *{
 	     box-sizing : border-box;
-		}
-	 .header{ 
-	    background-color:#1E90FF;
-		opacity:0.7;
-	   width:100%;
-	   padding : 40px;
-	   height:200px;
+       margin :0px;
+       padding : 0px;
+		 }
+	 .header,.footer{
+     font-size : 1em;
+	   background-color:#1E90FF;
+	   opacity:0.7;
+	   padding :.32em;
+     z-index : 15;
+	   display: inline-block;
+	   border: 12.5em;
+	   border-radius : 1.875em;
+     width : 100%;
+     top : 0px;
+	   }
+	   .header img{
+		 float :left;
 	   }
 	   .mti{
-	    text-align:center;
-	    margin :auto;
-		padding :30%;
-		text-transform:uppercase;
-        		
-		}
+	    	text-transform : uppercase;
+        font-family : permanent marker;
+        float : left;
+        display : inline-block;
+        text-shadow : 0.125em 0.125em yellow;
+        position : absolute;
+        font-size : 1rem;
+		 }
 		.header p
 		{
-		     margin :1px 50px 100px 900px;
-			 padding-bottom : 30px;
-             font-family : tangerine;
-		     font-size : 40px;
+			 padding-bottom : 2.5em;
+       font-family : tangerine;
+		   font-size : 2.5rem;
+       position : absolute;
 		}
-		.menu{
-         background-color : #1E90FF;
-	     width : 100%;	 
-		 height :60px;
-		 padding :0px;
-		 }
-		 .menu li a{
-		  width:25%;
-		  padding:20px;
-		  text-align:center;
-		  margin :auto;
-		  display : block;
-		  float : left;
-		  font-size : 20px;
-		  text-transform : capitalize;  
-		  
-		  }
-		  li a:hover{
-		  background-color : grey;
-		  font : italic;
-		  box-sizing : border-box;
-		  }
-	   </style>	
-       <meta name="viewport, content=width-device-width, inital-scale='1.0">	   
+		body
+		{
+		  background-color : #ddd;
+			background-image : url('bulb.jpg');
+			background-repeat : no-repeat;
+			background-attachment :fixed;
+		  background-size : cover;
+      background-position : center;
+		}
+    body,html
+    {
+      margin : 0px;
+      padding : 0px;
+      width :100%;
+      height :100%;
+    }
+		.sbody
+		{
+			padding : 1.25em;
+			background-color :white;
+      font-size : 2rem;
+    }
+     .footer
+     {
+      height : 9.375em;
+      bottom :0;
+      background-color :  #1E90FF;
+      padding-top : 3em;
+      padding-left : 3.5em;
+      font-size : 1.75rem;
+     }
+	   </style>
 </head>
 <body>
-        <div class ="header">
-		    <span class="mti"><h1>beliving</h1></span>
-			<p><strong>Naive to be professional</strong></p>
-		</div>			
-		<div class ="menu">
-		<ul>
-		<li><a href=''>personal</a></li> 
-		<li><a href=''>education</a></li> 
-		<li><a href=''>gallery</a></li> 
-		<li><a href=''>contact</a></li> 
-		</ul>
-		<div>
+    <div class ="header">
+		    <img class="logo" src='E:\GIT\project0\logo.png'>
+		    <div class="mti"><h1>beliving</h1></div>
+		   <p><strong>Naive to be professional</strong></p>
+		</div>
+    <label for="check" class="nav-toggle"><i class="fa fa-bars"</i></label>
+    <input type="checkbox" id="check">
+    <div class="container">
+      <table>
+        <tr><td><a href="E:\GIT\project0\proweb.html" target="_blank"><i class="fa fa-home"></i> home</a></td></tr>
+		    <tr><td><a href="E:\GIT\project0\personal.html" target="_blank"><i class="fa fa-user"></i>   personal</a></td></tr>
+	      <tr><td><a href="E:\GIT\project0\edu.html" target="_blank"><i class="fa fa-book"></i>  education</a></td></tr>
+	    	<tr><td><a href="E:\GIT\project0\gallery.html" target="_blank"><i class="fa fa-camera"></i> gallery</a></td></tr>
+   	    <tr><td><a href="E:\GIT\project0\contact.html" target="_blank"><i class="fa fa-phone"></i>  contact</a></td></tr>
+      </table>
+    </div>
+  </div>
+		<div id="main">
+		  <div class="sbody">
+		     <span><center>about</center></span>
+		        <p style="background-color:lightgreen;padding:20px">path to success is hardwork and smartwork.nothing comes without trying.
+		         be passionate about what do and have the right tool to guide,then every thing will
+		         align itself to pave way for your success.<strong>(<i>motivation to self</i>)</strong></p>
+		     <br>
+		        <p style="background-color:lightgreen;padding:20px"><b>My first ever website </b>: I guess this will teach me much more than what i think.for now,
+		        i seeing myself as a font-end very amatuer web developer and i hope to contine this throughout this lockdown and by the end of the lockdown
+            i should be qualified enough to call myself as intermediate front-end web developer.hoping to have every day, a progessive day towards
+		        web developing.</p>
+        <br>
+         <span><center>defining the self</center></span>
+		       <p>A website to brag about myself.though it is not a cool way to portrait about self as i have no other option.so letz start the bragging.
+		       i like to define myself as a pretty cool girl (who is modern espcially in clothing though i don't know to use any cosmatics...)
+		       and independent in every aspect of my life.i am pretty much shy on using social network(i don't y??.....till now i have never put
+		        a status in whatsapp being a 2K kid....)sites</p>
+       <br>
+         <span><center>new mode of relief</center></span>
+          <p><b>03-06-2020</b>: news that no final exams are going to be conducted for 4th semester of my B.Tech studies.I have thought this kind of
+            thing could happen in anyone life.Actually,I was kind of hoping not to have final-exams for OS lab.But,it turns out that I don't have
+            exams for any of the subjects(very remarkable and surprising day of the year,2020).</p>
+
+    </div>
+		</div>
+
+    <div class="footer">
+      <a href=""><i class="fa fa-facebook large"></i></a>
+      <a href=""><i class="fa fa-twitter large"></i></a>
+      <a href=""><i class="fa fa-instagram large"></i></a>
+      <a href=""><i class="fa fa-google large"></i></a>
+      <p style=" text-align:center ;margin:1em 3em ;position:absolute"> copyright <strong> webpro</strong> </p>
+    </div>
 </body>
 </html>
-
-   
