@@ -18,10 +18,8 @@ Home page - Design
 
 
 Smaller Dimension (Mobile view)
-![Screenshot (521)](https://user-images.githubusercontent.com/55397645/109982267-bf343b80-7d27-11eb-82a4-9ae491275e9c.png)!
-
-
-[Screenshot (524)](https://user-images.githubusercontent.com/55397645/109983143-8fd1fe80-7d28-11eb-9871-74403756fefd.png)
+![Screenshot (521)](https://user-images.githubusercontent.com/55397645/109982267-bf343b80-7d27-11eb-82a4-9ae491275e9c.png)
+![Screenshot (524)](https://user-images.githubusercontent.com/55397645/109983143-8fd1fe80-7d28-11eb-9871-74403756fefd.png)
 
 
 
