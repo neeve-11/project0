@@ -24,6 +24,7 @@ Smaller Dimension (Mobile view)
 ![Screenshot (524)](https://user-images.githubusercontent.com/55397645/109983143-8fd1fe80-7d28-11eb-9871-74403756fefd.png)
 
 
+Gallery
 
 ![Screenshot (514)](https://user-images.githubusercontent.com/55397645/109980592-12a58a00-7d26-11eb-9f36-586401159af4.png)
 
@@ -31,5 +32,16 @@ Smaller Dimension (Mobile view)
 Webpage look in smaller dimension(Mobile View) 
 
 ![Screenshot (517)](https://user-images.githubusercontent.com/55397645/109981233-bb53e980-7d26-11eb-9244-262340d96001.png)
+
+
+Contact
+
+![Screenshot (528)](https://user-images.githubusercontent.com/55397645/109984206-8c8b4280-7d29-11eb-8e12-4844450a4d0b.png)
+
+
+Mobile View
+
+![Screenshot (526)](https://user-images.githubusercontent.com/55397645/109983922-5057e200-7d29-11eb-83f2-c55463a68d51.png)
+
 
 
